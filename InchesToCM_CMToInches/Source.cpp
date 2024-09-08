@@ -11,7 +11,8 @@ int main()
 	double length = 1; // length in inches or centimeters
 
 	char unit = ' '; // a space is not a unit
-
+	
+	// Ask the user for a length and a unit
 	cout << "This program converts inches to centimeters or centimeters to inches.\n";
 	cout << "Please use C for centimeters or I for inches.\n";
 	cout << "Please enter a length ";
