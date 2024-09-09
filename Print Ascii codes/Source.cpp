@@ -1,6 +1,6 @@
 // This program prints the ascii value of characters a-z and A-Z
 
-#include <iostream>
+import std;
 
 using namespace std;
 
