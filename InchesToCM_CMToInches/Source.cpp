@@ -1,7 +1,6 @@
 // Program that converts Inches to Centimeters AND Centimeters to Inches
 
-#include <iostream>
-#include <cctype>
+import std;
 
 using namespace std;
 
