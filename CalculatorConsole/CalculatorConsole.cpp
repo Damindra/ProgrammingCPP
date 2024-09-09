@@ -1,7 +1,8 @@
 // CalculatorConsole.cpp : Simple Calculator Console Application
 //
 
-#include "..\std_lib_facilities.h"
+import std;
+#include "..\PPP_support.h"
 
 using namespace std;
 
@@ -134,7 +135,7 @@ int main()
     cout << "Welcome to our simple calculator.\n";
     cout << "Please enter expressions using floating-point numbers.\n";
     cout << "Operators available are +, -, *, and /.\n";
-    cout << "To print the result, enter a semicolon ';' and to exit, enter 'x'.\n";
+    cout << "To print the result, enter an equals '=' and to exit, enter 'x'.\n";
 
     double val = 0;
     while (cin) {
