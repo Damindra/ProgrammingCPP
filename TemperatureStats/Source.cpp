@@ -1,9 +1,6 @@
 // Calculate average and median of tempature readings
 
-#include <iostream>
-#include <vector>
-
-#include <algorithm>
+import std;
 
 using namespace std;
 
