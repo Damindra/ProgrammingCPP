@@ -1,13 +1,7 @@
 // Simple dictionary program using vector
 
 
-#include <iostream>
-
-#include <vector>
-
-#include <string>
-
-#include <algorithm>
+import std;
 
 using namespace std;
 
