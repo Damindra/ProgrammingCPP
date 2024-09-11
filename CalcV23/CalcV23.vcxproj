@@ -108,6 +108,7 @@
       <AdditionalModuleDependencies>yes</AdditionalModuleDependencies>
       <EnableModules>true</EnableModules>
       <BuildStlModules>true</BuildStlModules>
+      <AdditionalIncludeDirectories>D:\ONEDRIVE\Documents\Learning\Learning C++\ProgrammingCPP\CalcV23\Header Files;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -126,6 +127,7 @@
       <AdditionalModuleDependencies>yes</AdditionalModuleDependencies>
       <EnableModules>true</EnableModules>
       <BuildStlModules>true</BuildStlModules>
+      <AdditionalIncludeDirectories>D:\ONEDRIVE\Documents\Learning\Learning C++\ProgrammingCPP\CalcV23\Header Files;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -136,6 +138,12 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="CalcV23.cpp" />
+    <ClCompile Include="Header Files\PPP.ixx" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Header Files\PPP.h" />
+    <ClInclude Include="Header Files\PPPheaders.h" />
+    <ClInclude Include="Header Files\PPP_support.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
