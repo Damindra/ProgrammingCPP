@@ -18,6 +18,7 @@ using namespace PPP;
 
 
 //------------------------------------------------------------------------------
+// Definthe Token class
 
 class Token {
 public:
@@ -29,10 +30,11 @@ public:
 };
 
 //------------------------------------------------------------------------------
+// Define the Token_stream class
 
 class Token_stream {
 public:
-    Token get();                // get a Token
+	Token get();                // get a Token 
     void putback(Token t);      // put a token back
 private:
     bool full{ false };        // is there a Token in the buffer?
@@ -119,16 +121,16 @@ double secondary()
 
     while (true) {
         if (t.kind == '!') {
-            if (left == 0)
+			if (left == 0) // 0! = 1
                 return 1;
 
             for (int i = left - 1; i > 0; --i)
-                left *= i;
+				left *= i; // calculate the factorial
 
-            t = ts.get();
+			t = ts.get(); // get the next token
         }
-        else {
-            ts.putback(t);
+		else { // if the token is not a factorial operator
+			ts.putback(t); // put t back into the token stream
             return left;
         }
     }
